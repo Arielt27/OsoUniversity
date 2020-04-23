@@ -1,4 +1,6 @@
 package edu.ujcv.progra1;
 
-public class Universidad {
+public class Universidad
+{
+    // Code Here
 }

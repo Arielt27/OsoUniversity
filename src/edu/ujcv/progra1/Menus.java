@@ -6,7 +6,6 @@ public class Menus
     {
         System.out.println("****PROGRAMA UNIVERSIDAD****");
         System.out.println("*      Menu Principal      *");
-        System.out.println(" ");
         System.out.println("1) Continuar al Proximo Parcial");
         System.out.println("2) Consultar Alumnos");
         System.out.println("3) Consultar Clases");
