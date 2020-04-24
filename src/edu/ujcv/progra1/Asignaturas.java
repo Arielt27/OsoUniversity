@@ -12,60 +12,60 @@ public class Asignaturas
 
     /*ArrayList ClaseB()
     {
-        ArrayList A = new ArrayList();
+        ArrayList B = new ArrayList();
 
 
 
-        return A;
+        return B;
     }
 
     ArrayList ClaseC()
     {
 
-        ArrayList A = new ArrayList();
+        ArrayList C = new ArrayList();
 
 
 
-        return A;
+        return C;
     }
 
     ArrayList ClaseD()
     {
 
-        ArrayList A = new ArrayList();
+        ArrayList D = new ArrayList();
 
 
 
-        return A;
+        return D;
     }
 
     ArrayList ClaseE()
     {
 
-        ArrayList A = new ArrayList();
+        ArrayList E = new ArrayList();
 
 
 
-        return A;
+        return E;
     }
 
     ArrayList ClaseF()
     {
 
-        ArrayList A = new ArrayList();
+        ArrayList F = new ArrayList();
 
 
 
-        return A;
+        return F;
     }
 
     ArrayList ClaseG()
     {
 
-        ArrayList A = new ArrayList();
+        ArrayList G = new ArrayList();
 
 
 
-        return A;
+        return G;
     }*/
 }

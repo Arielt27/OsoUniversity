@@ -1,39 +1,21 @@
 package edu.ujcv.progra1;
 import java.util.ArrayList;
 
+// Esta clase sirve para guardar los alumnos en un arraylist y luego pasarlos a la class asignatura
 public class Alumnos
 {
     ArrayList alumnosGeneral()
     {
+        // CREACION DE OBJETOS NECESARIOS PARA ALUMNO Y EVALUACION
+
         CrearAlumnos Estudiante = new CrearAlumnos(); // Objeto CrearAlumnos
 
-        ArrayList alumnos = new ArrayList(); // Creando ArrayList
+        ArrayList alumnos = new ArrayList();          // Creando Objeto ArrayList
 
-        alumnos.add(Estudiante.crearAlumno());
+        // Añadiendo Estudiantes y Evaluacion al ArrayList alumnos
+
+        alumnos.add(Estudiante.crearAlumno() + "    " + Estudiante.evaluacion());
 
         return alumnos;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* array alumnos
-    10 nombre cta
-
-    array clase a
-    3
-    evaluar si pasa = true
-
-    array clase b
-     */
 }

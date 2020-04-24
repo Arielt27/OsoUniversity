@@ -1,6 +1,7 @@
 package edu.ujcv.progra1;
 import java.util.Random;
 
+// Esta Clase sirve para crear alumnos, numero de cuenta y el metodo de verificar si pasan o no aleatoriamente
 public class CrearAlumnos
 {
     public static String[] nombres =
@@ -52,5 +53,16 @@ public class CrearAlumnos
     public static String numeroCuenta()
     {
         return " " + año() + middle() + fin();
+    }
+
+    public String evaluacion()
+    {
+        int evaluar = (int) (Math.random()*100);
+
+        if(evaluar >= 70)
+            return "Aprobado";
+        else
+
+        return "Reprobado";
     }
 }

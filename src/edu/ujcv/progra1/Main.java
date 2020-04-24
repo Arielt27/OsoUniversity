@@ -25,7 +25,7 @@ public class Main
                     System.out.println(" ");
                     System.out.println("******Proximo Parcial******");
 
-                    System.out.println("Ya estamos en el siguiente Parcial");
+                    System.out.println("Proximo Parcial");
 
                     System.out.println(" ");
                     System.out.print(MP.MenuPrincipal());
@@ -36,10 +36,11 @@ public class Main
                     System.out.println(" ");
                     System.out.println("******Consultar Alumnos******");
 
-                    for (int i = 1; i <= 21; i++)
+                    System.out.println("*     Alumno     |       Numero de Cuenta       |       Estado      *");
+                    /*for (int i = 1; i <= 21; i++)
                     {
                         System.out.println(i + " " + CrearAlumnos.crearAlumno() + CrearAlumnos.numeroCuenta());
-                    }
+                    }*/
 
                     System.out.println(" ");
                     System.out.print(MP.MenuPrincipal());
@@ -51,13 +52,15 @@ public class Main
                     System.out.println("******Consultar Clases******");
 
                     System.out.println(" ");
-                    System.out.println("*     Clases        |        Alumnos     *");
+                    System.out.println("*     Clase         |         Alumno        |     Estatus     ");
 
-                    //Asignaturas clase1 = new Asignaturas();
                     Alumnos clase1 = new Alumnos();
+                    CrearAlumnos estudiante = new CrearAlumnos();
 
                     for(int i = 0; i<3; i++)
                         System.out.println("      Clase A       " + clase1.alumnosGeneral());
+
+                    System.out.println();
 
                     System.out.println(" ");
                     //for(int i = 0; i<3; i++)
@@ -92,7 +95,7 @@ public class Main
                     System.out.println(" ");
                     System.out.println("******Evaluar Ternas******");
 
-                    System.out.println("Se evaluaron las ternas");
+                    System.out.println("Evaluacion de ternas");
 
                     System.out.println(" ");
                     System.out.print(MP.MenuPrincipal());
