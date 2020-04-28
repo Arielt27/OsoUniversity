@@ -10,8 +10,13 @@ public class Main
         // Creando Objeto Menus
         Menus MP = new Menus();
 
-        // Creando Objeto Alumnos
+        // Creando Objeto Clases
+        Asignaturas Clases = new Asignaturas();
 
+        // Creando Objeto Universidad
+        Universidad Avance = new Universidad();
+
+        // Imprimiendo Menu Principal y leyendo opcion
         System.out.print(MP.MenuPrincipal());
         int Opc = lt.obtenerEnteroValidado("Ingrese una Opcion Valida");
 
@@ -25,7 +30,7 @@ public class Main
                     System.out.println(" ");
                     System.out.println("******Proximo Parcial******");
 
-                    System.out.println("Proximo Parcial");
+                    System.out.println("Avanzando al Proximo Parcial");
 
                     System.out.println(" ");
                     System.out.print(MP.MenuPrincipal());
@@ -34,13 +39,10 @@ public class Main
 
                 case 2: // CONSULTAR ALUMNOS
                     System.out.println(" ");
-                    System.out.println("******Consultar Alumnos******");
+                    System.out.println("                        ******Consultar Alumnos******");
 
-                    System.out.println("*     Alumno     |       Numero de Cuenta       |       Estado      *");
-                    /*for (int i = 1; i <= 21; i++)
-                    {
-                        System.out.println(i + " " + CrearAlumnos.crearAlumno() + CrearAlumnos.numeroCuenta());
-                    }*/
+                    System.out.println("*        Alumno        |       Numero de Cuenta       |         Estado        *");
+                    System.out.println(Clases.General());
 
                     System.out.println(" ");
                     System.out.print(MP.MenuPrincipal());
@@ -49,42 +51,32 @@ public class Main
 
                 case 3: // CONSULTAR CLASES
                     System.out.println(" ");
-                    System.out.println("******Consultar Clases******");
+                    System.out.println("                      ******Consultar Clases******");
 
                     System.out.println(" ");
-                    System.out.println("*     Clase         |         Alumno        |     Estatus     ");
+                    System.out.println("*        Clase         |            Alumno           |         Estatus      ");
 
-                    Alumnos clase1 = new Alumnos();
-                    CrearAlumnos estudiante = new CrearAlumnos();
-
-                    for(int i = 0; i<3; i++)
-                        System.out.println("      Clase A       " + clase1.alumnosGeneral());
-
-                    System.out.println();
-
+                    System.out.println("         Clase A       " + Clases.ClaseA());
                     System.out.println(" ");
-                    //for(int i = 0; i<3; i++)
-                        System.out.println("      Clase B       ");
 
+                    System.out.println("         Clase B       ");
                     System.out.println(" ");
-                    //for(int i = 0; i<3; i++)
-                        System.out.println("      Clase C       ");
 
+                    System.out.println("         Clase C       " + Clases.ClaseC());
                     System.out.println(" ");
-                    //for(int i = 0; i<3; i++)
-                        System.out.println("      Clase D       ");
 
+                    System.out.println("         Clase D       ");
                     System.out.println(" ");
-                    //for(int i = 0; i<3; i++)
-                        System.out.println("      Clase E       ");
 
+                    System.out.println("         Clase E       ");
                     System.out.println(" ");
-                    //for(int i = 0; i<3; i++)
-                        System.out.println("      Clase F       ");
 
+                    System.out.println("         Clase F       ");
                     System.out.println(" ");
-                    //for(int i = 0; i<3; i++)
-                        System.out.println("      Clase G       ");
+
+                    System.out.println("         Clase G       ");
+
+                    System.out.println("True = Aprobado  |   False = Reprobado");
 
                     System.out.println(" ");
                     System.out.print(MP.MenuPrincipal());

@@ -55,14 +55,14 @@ public class CrearAlumnos
         return " " + año() + middle() + fin();
     }
 
-    public String evaluacion()
+    public boolean evaluacion()
     {
         int evaluar = (int) (Math.random()*100);
 
         if(evaluar >= 70)
-            return "Aprobado";
+            return true;
         else
 
-        return "Reprobado";
+        return false;
     }
 }
