@@ -1,12 +1,13 @@
 package edu.ujcv.progra1;
+import java.util.ArrayList;
 
-// Esta clase sirve para guardar los alumnos en un arraylist y luego pasarlos a la class asignatura
 public class Alumnos
 {
     // Atributos
     private String nombre;
     private String cuenta;
     private Boolean status;
+
 
     // Constructor
     public Alumnos(String name, String cta, Boolean status)
@@ -16,6 +17,8 @@ public class Alumnos
         this.status = status;
     }
 
+
+    // Metodos Get y Set
     public String getNombre()
     {
         return nombre;
@@ -46,8 +49,8 @@ public class Alumnos
         this.status = status;
     }
 
-    // METODOS
 
+    // Metodo ToString
     @Override
     public String toString()
     {
