@@ -10,6 +10,12 @@ public class Main
         // Creando Objeto Menus
         Menus MP = new Menus();
 
+        // Creando Objeto Clase A
+        ClaseA clase1 = new ClaseA();
+
+        // Creando Objeto Clase C
+        ClaseC clase2 = new ClaseC();
+
         // Creando Objeto Universidad
         Universidad Avance = new Universidad();
 
@@ -51,15 +57,17 @@ public class Main
                     System.out.println("                      ******Consultar Clases******");
 
                     System.out.println(" ");
-                    System.out.println("*        Clase         |            Alumno           |         Estatus      ");
+                    System.out.println("*        Clase         |        Alumno       |     Numero de Cuenta     |     Estatus    |");
 
-                    System.out.println("         Clase A       ");
+                    System.out.println(" ");
+                    System.out.println(clase1.listaGeneral());
                     System.out.println(" ");
 
                     System.out.println("         Clase B       ");
                     System.out.println(" ");
 
-                    System.out.println("         Clase C       ");
+                    System.out.println(" ");
+                    System.out.println(clase2.listaGeneral());
                     System.out.println(" ");
 
                     System.out.println("         Clase D       ");

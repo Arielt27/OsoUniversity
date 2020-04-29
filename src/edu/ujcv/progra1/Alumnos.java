@@ -1,8 +1,7 @@
 package edu.ujcv.progra1;
 import java.util.ArrayList;
 
-public class Alumnos
-{
+public class Alumnos extends ArrayList<Alumnos> {
     // Atributos
     private String nombre;
     private String cuenta;
@@ -54,6 +53,6 @@ public class Alumnos
     @Override
     public String toString()
     {
-        return getNombre() + " " + getCuenta() + " " + getStatus();
+        return "    " + getNombre() + "       " + getCuenta() + "                 " + getStatus();
     }
 }
