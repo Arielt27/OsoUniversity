@@ -60,14 +60,15 @@ public class Main
                     System.out.println("*        Clase         |        Alumno       |     Numero de Cuenta     |     Estatus    |");
 
                     System.out.println(" ");
+                    System.out.println("         Clase A        ");
                     System.out.println(clase1.listaGeneral());
-                    System.out.println(" ");
 
                     System.out.println("         Clase B       ");
                     System.out.println(" ");
 
-                    System.out.println(" ");
+                    System.out.println("         Clase C        ");
                     System.out.println(clase2.listaGeneral());
+
                     System.out.println(" ");
 
                     System.out.println("         Clase D       ");

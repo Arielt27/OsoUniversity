@@ -1,6 +1,5 @@
 package edu.ujcv.progra1;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class ClaseA
 {
@@ -78,16 +77,9 @@ public class ClaseA
         for  (int x=0; x<estudiante.size(); x++)
         {
             mostrar = estudiante.get(x);
-            System.out.println("         Clase A       " + mostrar);
+            System.out.println("                       " + mostrar);
         }
 
         return "";
-    }
-
-    public ArrayList<Alumnos> copiarArray()
-    {
-        ArrayList copiaA = (ArrayList) estudiante.clone();
-
-        return  copiaA;
     }
 }
