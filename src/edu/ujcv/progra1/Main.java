@@ -13,6 +13,9 @@ public class Main
         // Creando Objeto Clase A
         ClaseA clase1 = new ClaseA();
 
+        // Creando Objeto Clase B
+        ClaseB clase3 = new ClaseB();
+
         // Creando Objeto Clase C
         ClaseC clase2 = new ClaseC();
 

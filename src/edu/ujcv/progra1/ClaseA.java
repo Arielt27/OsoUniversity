@@ -11,13 +11,6 @@ public class ClaseA
     // Constructor
     public ClaseA(){}
 
-    /*public ClaseA(String name, String apellido)
-    {
-        this.nombre = name;
-        this.apellido = apellido;
-    }*/
-
-
     // Get y Set
     public String getNombre()
     {

@@ -1,33 +1,31 @@
 package edu.ujcv.progra1;
+import java.util.ArrayList;
 
 public class ClaseB
 {
     // Atributos
-    private boolean aproboA;
-    private Alumnos alumno;
+    private ClaseA clasea;
 
     // Constructor
-    public ClaseB(Alumnos alumno, boolean aproboA)
+    public ClaseB(){}
+
+    // Get
+    public ClaseA getClasea()
     {
-
-
+        return clasea;
     }
 
+    ArrayList<Alumnos> estudiantesB = new ArrayList<Alumnos>();
+    ClaseA B = new ClaseA();
 
-    /*// Creando Objeto necesario para Crear 1 Alumno
-    CrearAlumnos crear = new CrearAlumnos();
+    // Metodos
+    /*public String listaGeneral(ClaseA clase)
+    {
+        for(int i = 0; i<10; i++)
+        {
 
-    // Creando Alumnos Con Constructor
-    Alumnos Student   = new Alumnos(crear.crearAlumno(), crear.numeroCuenta(), crear.evaluacion());
-    Alumnos Student2  = new Alumnos(crear.crearAlumno(), crear.numeroCuenta(), crear.evaluacion());
-    Alumnos Student3  = new Alumnos(crear.crearAlumno(), crear.numeroCuenta(), crear.evaluacion());
-    Alumnos Student4  = new Alumnos(crear.crearAlumno(), crear.numeroCuenta(), crear.evaluacion());
-    Alumnos Student5  = new Alumnos(crear.crearAlumno(), crear.numeroCuenta(), crear.evaluacion());
-    Alumnos Student6  = new Alumnos(crear.crearAlumno(), crear.numeroCuenta(), crear.evaluacion());
-    Alumnos Student7  = new Alumnos(crear.crearAlumno(), crear.numeroCuenta(), crear.evaluacion());
-    Alumnos Student8  = new Alumnos(crear.crearAlumno(), crear.numeroCuenta(), crear.evaluacion());
-    Alumnos Student9  = new Alumnos(crear.crearAlumno(), crear.numeroCuenta(), crear.evaluacion());
-    Alumnos Student10 = new Alumnos(crear.crearAlumno(), crear.numeroCuenta(), crear.evaluacion());*/
+        }
 
-
+        r
+    }*/
 }
